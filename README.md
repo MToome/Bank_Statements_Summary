@@ -5,14 +5,16 @@ To connect code to Google Sheets
 Will need to install gspread:  pip3 install gspread
 Will need to enable API Access for the project Sheets page:
 Go to https://docs.gspread.org/en/latest/oauth2.html#enable-api-access-for-a-project
+There is also all the information.
 Pick Credentials from the left bar
 Then create credentials
- and choose the Service account 
-fill in the account name and it will generate an ID for you
-Optional info I left it empty
-after pressing done click on the service account that was created
-on the top bar, there is KEYS, press that and select ADD KEY, Create new key, choose JSON
-JSON file will be downloaded
+and choose the Service account 
+fill in the account name and it will generate an ID for you.
+Optional info I left it empty.
+after pressing done click on the service account that was created.
+on the top bar, there is KEYS, press that and select ADD KEY, Create new key, choose JSON.
+JSON file will be downloaded.
+move the file to ~/.config/gspread/service_account.json
 open it with a text editor and copy the email that comes after "client_email ": 
 Go to the Google Sheets page that you made for this click share and paste the email.
 
