@@ -1,0 +1,8 @@
+"Client account";"Line type";"date";"Receiver/Payer";"Explanation";"Ammount";"Currency";"Debit/Credit";
+"123456789";"10";"01.08.2023";"";"Opening balance";"500,37";"EUR";"C";"
+"123456789";"20";"03.08.2023";"COMPANY";"Pay";"1000,75";"EUR";"C";
+"123456789";"20";"04.08.2023";"Preson Name";"Transfor to savings account";"100";"EUR";"D";
+"123456789";"20";"29.08.2023";"Person Name";"Loan";"150,00";"EUR";"D";
+"123456789";"82";"31.08.2023";"";"Turnover";"250";"EUR";"D";
+"123456789";"82";"31.08.2023";"";"Turnover";"1000,75";"EUR";"C";
+"123456789";"86";"31.08.2023";"";"finalbalance";"1251,12";"EUR";"C";
